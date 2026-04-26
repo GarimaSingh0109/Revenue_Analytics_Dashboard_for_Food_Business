@@ -8,7 +8,7 @@
 
 | Overview | Time Analysis | Key Insights |
 |----------|--------------|--------------|
-| ![Overview](assets/preview_overview.png) | ![Time](assets/preview_time.png) | ![Insights](assets/preview_insights.png) |
+| ![Overview](Dashboard/Dashboard_Overview.png) | ![Time](Dashboard/Dashboard_TimeAnalysis.png) | ![Insights](Dashboard/Dashboard_Insight.png) |
 
 > *Screenshots from the live Excel dashboard.*
 
