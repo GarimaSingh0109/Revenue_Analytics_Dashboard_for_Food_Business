@@ -1,244 +1,194 @@
-<div align="center">
+# 🍕Revenue Analytics Dashboard for Food Business
+### *Turning Slices of Data into Business Intelligence*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=E8593C&center=true&vCenter=true&width=600&lines=🍕+Pizza+Sales+Dashboard;Data+Analytics+Project;Excel+%7C+Power+BI+%7C+Insights" alt="Typing SVG" />
+---
 
-<br/>
-
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/Data_Analysis-F4B400?style=for-the-badge&logo=google-analytics&logoColor=white)
-![Dashboard](https://img.shields.io/badge/Dashboard-0078D4?style=for-the-badge&logo=powerbi&logoColor=white)
-
-<br/>
-
-> **An end-to-end sales analytics dashboard uncovering revenue trends, top performers, and strategic opportunities for a pizza brand — built entirely in Microsoft Excel.**
-
-<br/>
-
-[![GitHub stars](https://img.shields.io/github/stars/GarimaSingh0109/Pizza-Sales-Dashboard?style=social)](https://github.com/GarimaSingh0109)
-[![GitHub forks](https://img.shields.io/github/forks/GarimaSingh0109/Pizza-Sales-Dashboard?style=social)](https://github.com/GarimaSingh0109)
-
-</div>
+> **"Revenue is up 12%. Orders are up 8%. But units sold are down 3%."**
+> *That's not a problem — that's a story. And this dashboard tells it.*
 
 ---
 
 ## 📌 Project Overview
 
-This project delivers a **comprehensive, interactive sales dashboard** for a pizza restaurant chain. Starting from raw transactional data, the analysis surfaces critical business insights around revenue performance, best/worst-selling products, peak ordering windows, and category-level trends — all wrapped in a clean, filter-ready Excel interface.
+A complete end-to-end **sales analytics project** built on real pizza restaurant data — from raw CSV to interactive Excel dashboard to boardroom-ready PowerPoint. Every chart has a purpose. Every number has a story.
 
-The dashboard is structured across **3 tabs**:
-| Tab | What it shows |
-|-----|--------------|
-| 🏠 **Overview** | KPI cards, top/bottom sellers, revenue by category |
-| ⏱️ **Time Analysis** | Orders by hour of day & day of week |
-| 💡 **Insights** | Strategic takeaways and actionable recommendations |
+This project demonstrates the full analyst workflow:
+**Data Cleaning → Exploration → Visualization → Insight → Recommendation**
 
 ---
 
-## 📊 Dashboard Preview
-
-<div align="center">
-
-### 🏠 Overview Tab
-![Overview Dashboard](Dashboard/Dashboard_Overview.png)
-
-### ⏱️ Time Analysis Tab
-![Time Analysis Dashboard](Dashboard/Dashboard_TimeAnalysis.png)
-
-### 💡 Insights Tab
-![Insights Dashboard](Dashboard/Dashboard_Insights.png)
-
-</div>
-
----
-
-## 🔢 Key Metrics at a Glance
-
-<div align="center">
-
-| 💰 Total Revenue | 📦 Total Orders | 🍕 Units Sold | 🧾 Avg Order Value |
-|:-:|:-:|:-:|:-:|
-| **₹8,17,860** | **12,450** | **18,900** | **₹650** |
-| ▲ +12% vs last month | ▲ +8% vs last month | ▼ -3% vs last month | ▲ +5% vs last month |
-
-</div>
-
----
-
-## 🏆 Top 5 Best-Selling Pizzas
+## 🗂️ What's Inside
 
 ```
-🥇  The Classic Deluxe Pizza       ████████████████████  2,453 units
-🥈  The Barbecue Chicken Pizza     ████████████████████  2,432 units
-🥉  The Hawaiian Pizza             ███████████████████   2,422 units
-4️⃣   The Pepperoni Pizza            ███████████████████   2,418 units
-5️⃣   The Thai Chicken Pizza         ██████████████████    2,371 units
-```
-
-## 🔻 Bottom 5 Least-Selling Pizzas
-
-```
-⚠️  The Brie Carre Pizza           ████                    490 units  ← Critical outlier
-    The Mediterranean Pizza        ████████                934 units
-    The Calabrese Pizza            ████████                937 units
-    The Spinach Supreme Pizza      ████████                950 units
-    The Soppressata Pizza          ████████                961 units
+📁 Pizza-Sales-Dashboard/
+│
+├── 📂 Dashboard/                    # Dashboard screenshots (Overview · Time Analysis · Insights)
+├── 📂 dataset/                      # Raw source data
+│   └── pizzas.csv
+│
+├── 📊 Pizza Sales Dashboard.xlsx    # Interactive Excel dashboard with slicers & charts
+├── 📑 Pizza_Sales_Performance.pptx  # Executive presentation deck
+├── 📄 Pizza_Sales_Report.docx       # Full written analysis & recommendations
+└── 📋 README.md
 ```
 
 ---
 
-## ⏰ When Do Customers Order?
+## 📊 Dashboard Highlights
+
+The dashboard is built across **3 tabs**, each telling a different layer of the story.
+
+---
+
+### 🔵 Tab 1 — Overview
+
+> *The big picture at a glance*
+
+| Metric | Value | vs Last Month |
+|--------|-------|---------------|
+| 💰 Total Revenue | ₹8,17,860 | ▲ +12% |
+| 📦 Total Orders | 12,450 | ▲ +8% |
+| 🍕 Units Sold | 18,900 | ▼ -3% |
+| 🧾 Avg Order Value | ₹650 | ▲ +5% |
+
+**Top 5 Best Sellers** (by units sold)
 
 ```
-ORDERS BY HOUR OF DAY
-
-12 PM  ████████████████████████  6,543  ← 🔥 Peak Hour
- 1 PM  ██████████████████████    6,203
- 6 PM  ████████████████          5,359
- 5 PM  ███████████████           5,143
- 2 PM  ████████████              3,521
- 3 PM  ███████████               3,170
- 4 PM  █████████████             4,185
- 7 PM  █████████████             4,350
- 8 PM  ████████                  3,487
- 9 PM  ████████                  2,528
-10 AM  ████████                  2,672
-10 PM  ████                      1,370
-11 PM  ██                          68
- 9 AM  ▌                            4
+The Classic Deluxe Pizza    ████████████████████  2,453
+The Barbecue Chicken Pizza  ███████████████████   2,432
+The Hawaiian Pizza          ███████████████████   2,422
+The Pepperoni Pizza         ███████████████████   2,418
+The Thai Chicken Pizza      ██████████████████    2,371
 ```
 
-```
-ORDERS BY DAY OF WEEK
+**Bottom 5 — Needs Attention**
 
-Friday     ██████████████████████████  8,106  ← 🔥 Busiest Day
-Saturday   █████████████████████       7,355
-Thursday   █████████████████████       7,323
-Wednesday  ███████████████████         6,797
-Tuesday    ███████████████████         6,753
-Monday     ██████████████████          6,369
-Sunday     ████████████████            5,917  ← 📉 Slowest Day
+```
+The Brie Carre Pizza        ████                    490  ⚠️
+The Mediterranean Pizza     ████████                934
+The Calabrese Pizza         ████████                937
+The Spinach Supreme Pizza   █████████               950
+The Soppressata Pizza       █████████               961
+```
+
+**Revenue by Category** — Remarkably balanced across all four:
+
+| Category | Share |
+|----------|-------|
+| Classic | 26.91% |
+| Supreme | 25.46% |
+| Chicken | 23.96% |
+| Veggie | 23.68% |
+
+---
+
+### 🟢 Tab 2 — Time Analysis
+
+> *When do people actually want pizza?*
+
+**Orders by Hour**
+
+Peak hour: **12 PM** with **6,543 orders** — the lunch rush is real.
+
+```
+12 PM  ██████████████████████████  6,543  ← Peak
+ 1 PM  █████████████████████████   6,203
+ 6 PM  █████████████████████       5,359
+ 5 PM  ████████████████████        5,143
+ 2 PM  ██████████████              3,521
+ 9 AM  ░                               4  ← Barely open
+```
+
+**Orders by Day of Week**
+
+Friday is king. Sunday needs love.
+
+```
+Friday     ████████████████████████████████  8,106  ← Busiest
+Saturday   ███████████████████████████████   7,355
+Thursday   ████████████████████████████      7,323
+Wednesday  ██████████████████████████        6,797
+Tuesday    ██████████████████████████        6,753
+Monday     █████████████████████████         6,369
+Sunday     ████████████████████████          5,917  ← Slowest
 ```
 
 ---
 
-## 🍕 Revenue by Category
+### 🔴 Tab 3 — Key Insights
 
-```
-Classic   ████████████████████████████  26.91%
-Supreme   ███████████████████████████   25.46%
-Chicken   █████████████████████████     23.96%
-Veggie    ████████████████████████      23.68%
-```
-> Revenue is **almost perfectly balanced** across all 4 categories — no single category dominates.
+> *Where data becomes decisions*
 
----
+**💹 Revenue vs. volume divergence**
+Revenue (+12%) and orders (+8%) are up, but units sold are down 3%. Customers are ordering fewer but higher-priced items. The ₹650 avg order value (+5%) confirms an upselling trend.
 
-## 💡 Strategic Insights
+**⚠️ Brie Carre is a critical outlier**
+At just 490 units, it sells ~5× less than the top pizza. Revamp it or remove it.
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  1. Revenue ↑ but Units ↓ → Customers are ordering fewer but        │
-│     higher-value items. Average order value rose 5% to ₹650.        │
-│     This points to a healthy upselling trend.                       │
-│                                                                     │
-│  2. Brie Carre is a critical outlier — selling 5× less than         │
-│     the top pizza. Needs a recipe revamp or menu removal.           │
-│                                                                     │
-│  3. 12–1 PM is the golden window. Over 12,700 orders hit in         │
-│     just 2 hours. Staffing and prep must peak here.                 │
-│                                                                     │
-│  4. Friday & Saturday drive the most revenue. Weekend combo         │
-│     deals could push these numbers even higher.                     │
-│                                                                     │
-│  5. Sunday lags at 5,917 orders — a "Sunday Special" promo         │
-│     could meaningfully close the gap.                               │
-└─────────────────────────────────────────────────────────────────────┘
-```
+**🕛 Lunch rush dominates (12–1 PM)**
+These two hours likely generate a disproportionate share of daily revenue. Staffing and prep should be maximised in this window.
 
----
+**📅 Friday–Saturday are peak days**
+Weekend deals or combo offers on these days could further lift revenue.
 
-## 📁 Repository Structure
-
-```
-📦 Pizza-Sales-Dashboard
- ┣ 📂 Dashboard
- ┃  ┣ 🖼️  Dashboard_Overview.png
- ┃  ┣ 🖼️  Dashboard_TimeAnalysis.png
- ┃  └ 🖼️  Dashboard_Insights.png
- ┣ 📂 dataset
- ┃  └ 📄 pizzas.csv
- ┣ 📊 Pizza Sales Dashboard.xlsx      ← Interactive Excel Dashboard
- ┣ 📑 Pizza_Sales_Performance.pptx   ← Presentation Deck
- ┣ 📝 Pizza_Sales_Report.docx        ← Detailed Written Report
- └ 📘 README.md
-```
+**😴 Sunday is the weakest day (5,917 orders)**
+A "Sunday Special" promotion could activate dormant demand.
 
 ---
 
 ## 🛠️ Tools & Skills Used
 
-<div align="center">
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
+![PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=flat&logo=microsoft-powerpoint&logoColor=white)
+![Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=flat&logo=microsoft-word&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
-| Tool | Usage |
-|------|-------|
-| **Microsoft Excel** | Data cleaning, pivot tables, charts, interactive dashboard |
-| **Excel Slicers & Filters** | Size and category-based dynamic filtering |
-| **Bar & Line Charts** | Visual representation of trends |
-| **Pie / Donut Charts** | Category revenue breakdown |
-| **PowerPoint** | Client-ready presentation of findings |
-| **Word** | Detailed analytical report |
-
-</div>
-
----
-
-## 🚀 How to Use
-
-1. **Clone or download** this repository
-   ```bash
-   git clone https://github.com/GarimaSingh0109/Pizza-Sales-Dashboard.git
-   ```
-
-2. **Open** `Pizza Sales Dashboard.xlsx` in Microsoft Excel (2016 or later recommended)
-
-3. **Use the slicers** on the left panel to filter by Pizza Size or Category
-
-4. **Navigate tabs** — Overview → Time Analysis → Insights
-
-5. **Read the report** in `Pizza_Sales_Report.docx` for full written analysis
+| Area | What was done |
+|------|--------------|
+| **Data Cleaning** | Handled nulls, standardised categories, validated date formats |
+| **Data Analysis** | Pivot tables, time-series aggregation, top/bottom ranking |
+| **Visualisation** | Interactive charts, slicers by size & category, donut chart |
+| **Storytelling** | Written report + presentation translating data into decisions |
+| **Dashboard Design** | 3-tab structure: Overview → Time Analysis → Insights |
 
 ---
 
-## 📈 What I Learned
+## 💡 Key Business Recommendations
 
-- Transforming raw transactional data into a structured, analysis-ready format
-- Building multi-tab interactive dashboards with dynamic slicers in Excel
-- Communicating data insights through visual storytelling
-- Identifying business-critical outliers and translating them into actionable recommendations
-- Structuring a full project delivery: dashboard + presentation + written report
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![LinkedIn]([https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/GarimaSingh0109](https://www.linkedin.com/in/garima-singh-279014264/))
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GarimaSingh0109)
-
-<br/>
-
-**⭐ If you found this project helpful, please star the repository!**
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=E8593C&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+🍕;Open+to+Data+Analyst+opportunities!;Let's+build+something+great+together!" alt="footer" />
-
-</div>
+1. **Remove or revamp the Brie Carre Pizza** — 490 units is unsustainable on a shared menu.
+2. **Run a "Sunday Special" campaign** — close the 2,189-order gap between Sunday and Friday.
+3. **Maximise 12–1 PM staffing** — the lunch window drives the largest hourly order volume.
+4. **Leverage Friday evening for combo promotions** — peak day meets dinner spike.
+5. **Lean into upselling** — avg order value is rising; train staff to recommend higher-margin items.
 
 ---
 
-<div align="center">
-<sub>Made with ❤️ and 🍕 by <a href="https://github.com/GarimaSingh0109">Garima Singh</a></sub>
-</div>
+## 📁 Deliverables Summary
+
+| File | Description |
+|------|-------------|
+| `Pizza Sales Dashboard.xlsx` | Interactive dashboard with slicers, all 3 tabs |
+| `Pizza_Sales_Performance.pptx` | Executive slide deck for stakeholder presentation |
+| `Pizza_Sales_Report.docx` | Full written report with methodology & recommendations |
+| `dataset/pizzas.csv` | Raw data used for the entire analysis |
+| `Dashboard/` | PNG exports of all dashboard views |
+
+---
+
+## 👩‍💻 About This Project
+
+This project was built as a complete data analyst case study — not just to make charts, but to answer real business questions:
+
+- *Which products should we stop selling?*
+- *When should we schedule more staff?*
+- *Which days need promotional support?*
+
+The goal: go from raw data to a deliverable a business owner could act on the same day.
+
+---
+
+*Made with 🍕 and a lot of pivot tables.*
+
+---
+
+> 📬 **Let's connect** — if you're looking for an analyst who cares as much about the story as the spreadsheet, reach out!
